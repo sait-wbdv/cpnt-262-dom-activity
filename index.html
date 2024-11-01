@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entertainment Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header with navigation bar -->
+  <header class="header">
+    <h1 class="site-title" id="hero-title">Entertainment Hub</h1>
+    <nav>
+      <ul class="nav-links" id="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main container with sidebar and main content area -->
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <ul>
+        <li><a href="#">Top Picks</a></li>
+        <li><a href="#">New Releases</a></li>
+        <li><a href="#">Genres</a></li>
+        <li><a href="#">Upcoming Events</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main content area -->
+    <main class="main-content">
+      <h2 class="page-title">Welcome to the Entertainment Hub!</h2>
+      <!-- Hidden secret message -->
+      <p id="secret-message">Enjoy the secret content!</p>
+
+      <!-- Unordered list to add to -->
+      <ul id="to-do-list">
+        <li>Discover new movies</li>
+        <li>Listen to music</li>
+        <li>Read the latest reviews</li>
+      </ul>
+
+      <!-- Buttons and elements for interaction -->
+      <div class="buttons">
+        <button id="reveal-clue">Reveal Secret Content</button>
+        <button id="change-theme">Change Background Theme</button>
+        <button id="add-item">Add an Item</button> 
+        <button id="finish">Finish the Scavenger Hunt!</button>
+      </div>
+
+      <!-- Hidden image -->
+      <img id="hidden-image" src="images/surprise-image.avif" alt="Special Reveal Image">
+    </main>
+  </div>
+</body>
+</html>
